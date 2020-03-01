@@ -63,10 +63,15 @@ public class GirlsContactNumber {
             if(answer[i] > 100){
                 System.out.println((i+1) + ". 100.00%");
             } else {
-                // Math Floor to avoid rounding off
-                System.out.printf("%d. %.2f%%\n", (i+1), Math.floor(answer[i] * 100) / 100.0);
+//                String temp = String.valueOf(answer[i]);
+                System.out.printf("%d. %s%%\n", (i+1), String.valueOf(answer[i]).substring(0, String.valueOf(answer[i]).indexOf(".") + 3));
             }
         }
         
     }
 }
+// Old solution withour rounding off
+// System.out.printf("%d. %.2f%%\n", (i+1), ((int)(answer[i] * 100)) / 100.00);
+
+// Math Floor to avoid rounding off
+// System.out.printf("%d. %.2f%%\n", (i+1), Math.floor(answer[i] * 100) / 100.0);
