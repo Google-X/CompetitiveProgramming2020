@@ -165,7 +165,12 @@ public class WatchingJon {
                     for(int j = 0; j < tvStart.length; j++){
                         
                         if(i == j){
-                            // do nothing
+                            
+                            if(tvStart[i] + tvRep[i] < tvEnd[i]){
+                                intersect.add(true);
+                                break CHECKING;
+                            }
+                            
                         } else {
                             
                             if(tvStart[i] >= tvStart[j] && tvStart[i] < tvEnd[j]){
