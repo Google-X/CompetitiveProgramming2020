@@ -1,5 +1,6 @@
 /*
- * 3. The baby is here. Your life is changed forever. But first things first, you need to get diapers. This baby is going through diapers like a legend, so you will need a program to calculate how long the diapers you have will last.
+ *  Closed Category
+3. The baby is here. Your life is changed forever. But first things first, you need to get diapers. This baby is going through diapers like a legend, so you will need a program to calculate how long the diapers you have will last.
 
 Given the number of diapers you have, and how many diapers per day this legendary baby is using, your task is to write a program to calculate how many days you have until you will have to buy more diapers.
 
